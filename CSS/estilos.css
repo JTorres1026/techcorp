@@ -166,8 +166,18 @@ main {
         position: absolute;
     }
 
+    
+
 
     /*Formularios*/
+    .card-body {
+        display: none;
+      }
+      
+      .card-body.show {
+        display: block;
+      }
+      
 
     .contenedor__login-register {
         top: -10px;
