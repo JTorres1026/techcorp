@@ -19,6 +19,15 @@
     font-weight: bold;*/
     color: #EB1D36;
 }
+
+.card-body {
+  display: none;
+}
+
+.card-body.show {
+  display: block;
+}
+
 /* Estilo para la imagen del logo */
 .logo-img {
   width: 80px;
@@ -68,4 +77,5 @@
   height: 5rem;
   margin-top: 29%;
 }
+
 
