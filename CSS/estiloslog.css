@@ -10,7 +10,32 @@ html {
   /* Ajusta el tamaño según lo desees */
   margin-left: 10px;
   /* Ajusta el margen izquierdo según lo desees */
+
 }
+
+/* Estilo para el navbar */
+.navbar {
+  background-color: #5153db; /* Color de fondo del navbar */
+}
+
+/* Estilo para los enlaces del navbar */
+.navbar a {
+  color: #fff; /* Color de texto de los enlaces */
+}
+
+/* Estilo para cambiar el color del enlace cuando se le pasa el mouse por encima */
+.navbar a:hover {
+  color: #f9f9f9; /* Color de texto al pasar el mouse por encima del enlace */
+}
+
+.card-body {
+  display: none;
+}
+
+.card-body.show {
+  display: block;
+}
+
 
 body {
     min-height: 100vh;

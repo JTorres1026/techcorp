@@ -135,7 +135,18 @@
         </div>
     </div> 
     <!--aqui termina el card-->
-
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+          // Obtener todos los elementos con la clase "card-body"
+          const cardBodies = document.querySelectorAll(".card-body");
+          
+          // Agregar la clase "show" a cada elemento "card-body"
+          cardBodies.forEach(function(cardBody) {
+            cardBody.classList.add("show");
+          });
+        });
+      </script>
+      
 </body>
 
 </html>
